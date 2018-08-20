@@ -1,2 +1,10 @@
-<h1>Cocktails#new</h1>
-<p>Find me in app/views/cocktails/new.html.erb</p>
+<h2>Enter a new cocktail</h2>
+
+<form action="/cocktails" method="get">
+  <input type="text" name="cocktail-name" placeholder="Cocktail name">
+  <input type="text" name="ingredient-name" placeholder="Ingredient name">
+  <input type="integer" name="dose-amount" placeholder="Dose">
+  <input type="submit">
+</form>
+
+<!-- Ingredient name needs to be a dropdown menu -->
